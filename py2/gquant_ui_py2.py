@@ -72,7 +72,7 @@ def data_set():
 b1 = Button(g1, text = "Browse", command = data_set)
 b1.place(x = 440, y = 8)
 
-l2 = Label(g1, text="Output folder: ")
+l2 = Label(g1, text="Output file: ")
 l2.place(x = 2, y = 50)
 output_file_name = StringVar()
 output_file = Entry(g1, textvariable = output_file_name, width = 45)
